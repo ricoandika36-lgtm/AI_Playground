@@ -66,3 +66,138 @@
 2026-11-22 14:44:55,169 - INFO - Aplikasi selesai
 2026-11-22 14:44:55,237 - DEBUG - close.started
 2026-11-22 14:44:55,238 - DEBUG - close.complete
+2026-11-22 20:47:27,458 - DEBUG - Memasuki fungsi main
+2026-11-22 20:47:27,478 - INFO - Aplikasi dimulai
+2026-11-22 20:47:27,567 - DEBUG - Mencoba membuat OpenAI client
+2026-11-22 20:47:29,159 - DEBUG - Building HTTP request: method=POST retries_taken=0
+2026-11-22 20:47:29,230 - DEBUG - Sending HTTP Request: POST
+2026-11-22 20:47:29,232 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2026-11-22 20:47:29,531 - DEBUG - connect_tcp.complete return_value=<httpcore2._backends.sync.SyncStream object at 0x000001AA154BDD30>
+2026-11-22 20:47:29,536 - DEBUG - start_tls.started ssl_context=<truststore._api.SSLContext object at 0x000001AA15418710> server_hostname='api.openai.com' timeout=5.0
+2026-11-22 20:47:29,752 - DEBUG - start_tls.complete return_value=<httpcore2._backends.sync.SyncStream object at 0x000001AA15486850>
+2026-11-22 20:47:29,827 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-11-22 20:47:29,882 - DEBUG - send_request_headers.complete
+2026-11-22 20:47:30,020 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-11-22 20:47:30,078 - DEBUG - send_request_body.complete
+2026-11-22 20:47:30,096 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-11-22 20:47:36,289 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 22 Nov 2026 13:47:34 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a5e862dd0ffd3541-CGK'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'access-control-expose-headers', b'X-Request-ID, Server-Timing-Total, X-OpenAI-Inference-Capacity-Reason'), (b'access-control-expose-headers', b'CF-Ray'), (b'Access-Control-Expose-Headers', b'CF-Ray'), (b'openai-organization', b'user-tjikkdzuh9dx7oyeyavajxuu'), (b'openai-processing-ms', b'3144'), (b'openai-project', b'proj_AGB0ZJfLzWvqJVRyhDH0MsaK'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'5000'), (b'x-ratelimit-limit-tokens', b'2000000'), (b'x-ratelimit-remaining-requests', b'4999'), (b'x-ratelimit-remaining-tokens', b'2000000'), (b'x-ratelimit-reset-requests', b'12ms'), (b'x-ratelimit-reset-tokens', b'0s'), (b'x-request-id', b'req_58d84891c86443f9b719dee721a9fabf'), (b'set-cookie', b'__cf_bm=bvkzkwyU9ABnOehmWOPNbCBOVZB0QYuPw9D0vgVbrXo-1795355248.170118-1.0.1.1-z4c3YgrDM7EE9duGMJPgyiZ5iGiQWlHIjCwu50ip8qo9Dsu13vheCdR_8JCVEpqkpbB9i9IenEbqLdy_B.IzPD8YVbH9wsx_xFFvKkC_ui.XcN.142ZX3u9yuY4c8oJz; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=api.openai.com; Expires=Sun, 22 Nov 2026 14:17:34 GMT'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-11-22 20:47:36,316 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-11-22 20:47:36,322 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-11-22 20:47:36,332 - DEBUG - receive_response_body.complete
+2026-11-22 20:47:36,333 - DEBUG - response_closed.started
+2026-11-22 20:47:36,334 - DEBUG - response_closed.complete
+2026-11-22 20:47:36,335 - DEBUG - HTTP Response: POST 200
+2026-11-22 20:47:36,335 - DEBUG - request_id: req_58d84891c86443f9b719dee721a9fabf
+2026-11-22 20:47:36,610 - DEBUG - Object Client berhasil dibuat
+2026-11-22 20:47:36,613 - INFO - OpenAI Client berhasil dibuat
+2026-11-22 20:47:36,614 - INFO - Aplikasi selesai
+2026-11-22 20:47:36,726 - DEBUG - close.started
+2026-11-22 20:47:36,729 - DEBUG - close.complete
+2026-11-22 21:12:21,917 - DEBUG - Memasuki fungsi main
+2026-11-22 21:12:21,918 - INFO - Aplikasi dimulai
+2026-11-22 21:12:21,919 - DEBUG - Mencoba membuat OpenAI client
+2026-11-22 21:12:22,608 - DEBUG - Building HTTP request: method=POST retries_taken=0
+2026-11-22 21:12:22,664 - DEBUG - Sending HTTP Request: POST
+2026-11-22 21:12:22,665 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2026-11-22 21:12:22,770 - DEBUG - connect_tcp.complete return_value=<httpcore2._backends.sync.SyncStream object at 0x000001C01E095BE0>
+2026-11-22 21:12:22,770 - DEBUG - start_tls.started ssl_context=<truststore._api.SSLContext object at 0x000001C01DFE08C0> server_hostname='api.openai.com' timeout=5.0
+2026-11-22 21:12:22,913 - DEBUG - start_tls.complete return_value=<httpcore2._backends.sync.SyncStream object at 0x000001C01E04E990>
+2026-11-22 21:12:22,914 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-11-22 21:12:22,915 - DEBUG - send_request_headers.complete
+2026-11-22 21:12:22,916 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-11-22 21:12:22,917 - DEBUG - send_request_body.complete
+2026-11-22 21:12:22,917 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-11-22 21:12:27,912 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 22 Nov 2026 14:12:26 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a5e887512a4fb5bd-CGK'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'access-control-expose-headers', b'X-Request-ID, Server-Timing-Total, X-OpenAI-Inference-Capacity-Reason'), (b'access-control-expose-headers', b'CF-Ray'), (b'Access-Control-Expose-Headers', b'CF-Ray'), (b'openai-organization', b'user-tjikkdzuh9dx7oyeyavajxuu'), (b'openai-processing-ms', b'3565'), (b'openai-project', b'proj_AGB0ZJfLzWvqJVRyhDH0MsaK'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'5000'), (b'x-ratelimit-limit-tokens', b'2000000'), (b'x-ratelimit-remaining-requests', b'4999'), (b'x-ratelimit-remaining-tokens', b'2000000'), (b'x-ratelimit-reset-requests', b'12ms'), (b'x-ratelimit-reset-tokens', b'0s'), (b'x-request-id', b'req_4eb46a432ef545f3a6591c4b68bf16f2'), (b'set-cookie', b'__cf_bm=budfc_IkAtYdm1gYCv4DhkN83yb8mKDvpz9EqmfReYs-1795356741.3064997-1.0.1.1-JzuiAnggGIjOv4hEZRk_gTsEDpQARcrz8G_rF6pIqf3T5L8KPNueV.1Am1DwAmu9Yt7zhykyfmtkd5mbe0Lm_YDlCW0tn4gtn.xFi3Cor8lIz4pWxOJ0.my2HkZyDKLz; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=api.openai.com; Expires=Sun, 22 Nov 2026 14:42:26 GMT'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-11-22 21:12:27,917 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-11-22 21:12:27,918 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-11-22 21:12:27,922 - DEBUG - receive_response_body.complete
+2026-11-22 21:12:27,923 - DEBUG - response_closed.started
+2026-11-22 21:12:27,924 - DEBUG - response_closed.complete
+2026-11-22 21:12:27,924 - DEBUG - HTTP Response: POST 200
+2026-11-22 21:12:27,926 - DEBUG - request_id: req_4eb46a432ef545f3a6591c4b68bf16f2
+2026-11-22 21:12:28,289 - DEBUG - Object Client berhasil dibuat
+2026-11-22 21:12:28,289 - INFO - OpenAI Client berhasil dibuat
+2026-11-22 21:12:28,289 - INFO - Aplikasi selesai
+2026-11-22 21:12:28,386 - DEBUG - close.started
+2026-11-22 21:12:28,387 - DEBUG - close.complete
+2026-11-22 21:19:58,628 - DEBUG - Memasuki fungsi main
+2026-11-22 21:19:58,630 - INFO - Aplikasi dimulai
+2026-11-22 21:19:58,630 - DEBUG - Mencoba membuat OpenAI client
+2026-11-22 21:19:59,562 - DEBUG - Building HTTP request: method=POST retries_taken=0
+2026-11-22 21:19:59,649 - DEBUG - Sending HTTP Request: POST
+2026-11-22 21:19:59,650 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2026-11-22 21:19:59,759 - DEBUG - connect_tcp.complete return_value=<httpcore2._backends.sync.SyncStream object at 0x0000027A13FA5BE0>
+2026-11-22 21:19:59,763 - DEBUG - start_tls.started ssl_context=<truststore._api.SSLContext object at 0x0000027A13ECC8C0> server_hostname='api.openai.com' timeout=5.0
+2026-11-22 21:19:59,939 - DEBUG - start_tls.complete return_value=<httpcore2._backends.sync.SyncStream object at 0x0000027A13F5E990>
+2026-11-22 21:19:59,939 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-11-22 21:19:59,940 - DEBUG - send_request_headers.complete
+2026-11-22 21:19:59,940 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-11-22 21:19:59,941 - DEBUG - send_request_body.complete
+2026-11-22 21:19:59,941 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-11-22 21:21:10,862 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 22 Nov 2026 14:21:09 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a5e89278fffcb58a-CGK'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'access-control-expose-headers', b'X-Request-ID, Server-Timing-Total, X-OpenAI-Inference-Capacity-Reason'), (b'access-control-expose-headers', b'CF-Ray'), (b'Access-Control-Expose-Headers', b'CF-Ray'), (b'openai-organization', b'user-tjikkdzuh9dx7oyeyavajxuu'), (b'openai-processing-ms', b'70495'), (b'openai-project', b'proj_AGB0ZJfLzWvqJVRyhDH0MsaK'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'5000'), (b'x-ratelimit-limit-tokens', b'1000000'), (b'x-ratelimit-remaining-requests', b'4999'), (b'x-ratelimit-remaining-tokens', b'996302'), (b'x-ratelimit-reset-requests', b'12ms'), (b'x-ratelimit-reset-tokens', b'221ms'), (b'x-request-id', b'req_81d5e825629247a983f32d377a9b63a1'), (b'set-cookie', b'__cf_bm=6DQIM_qXFOmFfX9MpHQg9Iyc.4CUVhMrMTvjryg02Ig-1795357198.2403982-1.0.1.1-FsgjKz1sUsoCu25yM3ClwXBihYWnU1ke1sp_gZh7wlQDutyyJ7HUzFGXZyE34uLHM6kCj1Ek3Rki_CioA9hkAebvZf.O4GnIFv8fNzDhqoeqegCM1MaGjzDxcDl4WZbA; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=api.openai.com; Expires=Sun, 22 Nov 2026 14:51:09 GMT'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-11-22 21:21:10,866 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-11-22 21:21:10,868 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-11-22 21:21:10,872 - DEBUG - receive_response_body.complete
+2026-11-22 21:21:10,874 - DEBUG - response_closed.started
+2026-11-22 21:21:10,876 - DEBUG - response_closed.complete
+2026-11-22 21:21:10,878 - DEBUG - HTTP Response: POST 200
+2026-11-22 21:21:10,887 - DEBUG - request_id: req_81d5e825629247a983f32d377a9b63a1
+2026-11-22 21:21:11,220 - DEBUG - Object Client berhasil dibuat
+2026-11-22 21:21:11,220 - INFO - OpenAI Client berhasil dibuat
+2026-11-22 21:21:11,221 - INFO - Aplikasi selesai
+2026-11-22 21:21:11,327 - DEBUG - close.started
+2026-11-22 21:21:11,328 - DEBUG - close.complete
+2026-11-22 21:27:12,313 - DEBUG - Memasuki fungsi main
+2026-11-22 21:27:12,314 - INFO - Aplikasi dimulai
+2026-11-22 21:27:12,314 - DEBUG - Mencoba membuat OpenAI client
+2026-11-22 21:27:13,220 - DEBUG - Building HTTP request: method=POST retries_taken=0
+2026-11-22 21:27:13,299 - DEBUG - Sending HTTP Request: POST
+2026-11-22 21:27:13,300 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2026-11-22 21:27:13,525 - DEBUG - connect_tcp.complete return_value=<httpcore2._backends.sync.SyncStream object at 0x000001C5CF1F5BE0>
+2026-11-22 21:27:13,526 - DEBUG - start_tls.started ssl_context=<truststore._api.SSLContext object at 0x000001C5CF148710> server_hostname='api.openai.com' timeout=5.0
+2026-11-22 21:27:13,683 - DEBUG - start_tls.complete return_value=<httpcore2._backends.sync.SyncStream object at 0x000001C5CF1AE990>
+2026-11-22 21:27:13,684 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-11-22 21:27:13,685 - DEBUG - send_request_headers.complete
+2026-11-22 21:27:13,686 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-11-22 21:27:13,687 - DEBUG - send_request_body.complete
+2026-11-22 21:27:13,687 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-11-22 21:28:05,066 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 22 Nov 2026 14:28:02 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a5e89d0ffee1b5e4-CGK'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'access-control-expose-headers', b'X-Request-ID, Server-Timing-Total, X-OpenAI-Inference-Capacity-Reason'), (b'access-control-expose-headers', b'CF-Ray'), (b'Access-Control-Expose-Headers', b'CF-Ray'), (b'openai-organization', b'user-tjikkdzuh9dx7oyeyavajxuu'), (b'openai-processing-ms', b'50580'), (b'openai-project', b'proj_AGB0ZJfLzWvqJVRyhDH0MsaK'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'5000'), (b'x-ratelimit-limit-tokens', b'2000000'), (b'x-ratelimit-remaining-requests', b'4999'), (b'x-ratelimit-remaining-tokens', b'1993824'), (b'x-ratelimit-reset-requests', b'12ms'), (b'x-ratelimit-reset-tokens', b'185ms'), (b'x-request-id', b'req_207c08670ed6463280dab18e75e416ba'), (b'set-cookie', b'__cf_bm=D7z1eFCjnDSa2svhdQGdwY7bwuK2mX_XmSMHrZCysKg-1795357631.9916956-1.0.1.1-y6WKLm7yGKJdNitbBz7XbdK3xzfekpNP3lL.LyevvVe3gU7eB2euIXYCHN06RNFaZRVYB2mvmog1NMWeWtjkooT6K6R4DNa.GJwmkAgJHuGFf8Qr.Rgsg_zAIGURLlgR; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=api.openai.com; Expires=Sun, 22 Nov 2026 14:58:02 GMT'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-11-22 21:28:05,071 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-11-22 21:28:05,072 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-11-22 21:28:05,176 - DEBUG - receive_response_body.complete
+2026-11-22 21:28:05,177 - DEBUG - response_closed.started
+2026-11-22 21:28:05,178 - DEBUG - response_closed.complete
+2026-11-22 21:28:05,179 - DEBUG - HTTP Response: POST 200
+2026-11-22 21:28:05,180 - DEBUG - request_id: req_207c08670ed6463280dab18e75e416ba
+2026-11-22 21:28:05,373 - DEBUG - Object Client berhasil dibuat
+2026-11-22 21:28:05,374 - INFO - OpenAI Client berhasil dibuat
+2026-11-22 21:28:05,374 - INFO - Aplikasi selesai
+2026-11-22 21:28:05,438 - DEBUG - close.started
+2026-11-22 21:28:05,439 - DEBUG - close.complete
+2026-11-22 21:31:33,932 - DEBUG - Memasuki fungsi main
+2026-11-22 21:31:33,933 - INFO - Aplikasi dimulai
+2026-11-22 21:31:33,933 - DEBUG - Mencoba membuat OpenAI client
+2026-11-22 21:31:34,724 - DEBUG - Building HTTP request: method=POST retries_taken=0
+2026-11-22 21:31:34,793 - DEBUG - Sending HTTP Request: POST
+2026-11-22 21:31:34,794 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2026-11-22 21:31:34,974 - DEBUG - connect_tcp.complete return_value=<httpcore2._backends.sync.SyncStream object at 0x0000010E47D95BE0>
+2026-11-22 21:31:34,975 - DEBUG - start_tls.started ssl_context=<truststore._api.SSLContext object at 0x0000010E47CE8710> server_hostname='api.openai.com' timeout=5.0
+2026-11-22 21:31:35,155 - DEBUG - start_tls.complete return_value=<httpcore2._backends.sync.SyncStream object at 0x0000010E47D4E990>
+2026-11-22 21:31:35,156 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-11-22 21:31:35,158 - DEBUG - send_request_headers.complete
+2026-11-22 21:31:35,159 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-11-22 21:31:35,161 - DEBUG - send_request_body.complete
+2026-11-22 21:31:35,162 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-11-22 21:32:21,576 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 22 Nov 2026 14:32:19 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a5e8a3721bc14ab4-CGK'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'access-control-expose-headers', b'X-Request-ID, Server-Timing-Total, X-OpenAI-Inference-Capacity-Reason'), (b'access-control-expose-headers', b'CF-Ray'), (b'Access-Control-Expose-Headers', b'CF-Ray'), (b'openai-organization', b'user-tjikkdzuh9dx7oyeyavajxuu'), (b'openai-processing-ms', b'45997'), (b'openai-project', b'proj_AGB0ZJfLzWvqJVRyhDH0MsaK'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'5000'), (b'x-ratelimit-limit-tokens', b'2000000'), (b'x-ratelimit-remaining-requests', b'4999'), (b'x-ratelimit-remaining-tokens', b'1994683'), (b'x-ratelimit-reset-requests', b'12ms'), (b'x-ratelimit-reset-tokens', b'159ms'), (b'x-request-id', b'req_9d839fbafc1845ed835d90a5f9326181'), (b'set-cookie', b'__cf_bm=ZLPf983aNktAesG7UaxWgMXkBAr8mQ4dhh6UklpuIWg-1795357893.4586465-1.0.1.1-JKtrtHIyIq0IK3ZaSpFJhkdkkcQYb6dSfE8k18yE.4jMk5IEySmGhvyMlHW2UIssPULIsvAoMOLy4ZvgDc.DwWb0nw6aen7PSIMLNTXoYyvzwYjQUcwIBY2zUsDj8cQ6; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=api.openai.com; Expires=Sun, 22 Nov 2026 15:02:19 GMT'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-11-22 21:32:21,580 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-11-22 21:32:21,582 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-11-22 21:32:22,474 - DEBUG - receive_response_body.complete
+2026-11-22 21:32:22,475 - DEBUG - response_closed.started
+2026-11-22 21:32:22,476 - DEBUG - response_closed.complete
+2026-11-22 21:32:22,477 - DEBUG - HTTP Response: POST 200
+2026-11-22 21:32:22,478 - DEBUG - request_id: req_9d839fbafc1845ed835d90a5f9326181
+2026-11-22 21:32:22,762 - DEBUG - Object Client berhasil dibuat
+2026-11-22 21:32:22,762 - INFO - OpenAI Client berhasil dibuat
+2026-11-22 21:32:22,763 - INFO - Aplikasi selesai
+2026-11-22 21:32:22,824 - DEBUG - close.started
+2026-11-22 21:32:22,825 - DEBUG - close.complete
