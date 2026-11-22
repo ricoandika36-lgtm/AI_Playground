@@ -1,0 +1,68 @@
+2026-11-17 22:12:43,472 - INFO - Aplikasi dimulai
+2026-11-17 22:12:43,473 - INFO - Mencoba membuat OpenAI client
+2026-11-17 22:12:43,474 - ERROR - Konfigurasi belum siap: API Key belum dikonfigurasi
+2026-11-17 22:12:43,474 - INFO - Aplikasi selesai
+2026-11-17 22:13:25,677 - INFO - Aplikasi dimulai
+2026-11-17 22:13:25,678 - INFO - Mencoba membuat OpenAI client
+2026-11-17 22:13:25,679 - ERROR - Konfigurasi belum siap: API Key belum dikonfigurasi
+2026-11-17 22:13:25,679 - INFO - Aplikasi selesai
+2026-11-17 22:17:10,942 - DEBUG - Memasuki fungsi main
+2026-11-17 22:17:10,943 - INFO - Aplikasi dimulai
+2026-11-17 22:17:10,943 - DEBUG - Mencoba membuat OpenAI client
+2026-11-17 22:17:10,944 - ERROR - Konfigurasi belum siap: API Key belum dikonfigurasi
+2026-11-17 22:17:10,944 - INFO - Aplikasi selesai
+2026-11-17 22:19:16,514 - DEBUG - Memasuki fungsi main
+2026-11-17 22:19:16,515 - INFO - Aplikasi dimulai
+2026-11-17 22:19:16,515 - DEBUG - Mencoba membuat OpenAI client
+2026-11-17 22:19:16,516 - ERROR - Konfigurasi belum siap: API Key belum dikonfigurasi
+2026-11-17 22:19:16,516 - INFO - Aplikasi selesai
+2026-11-17 22:24:14,017 - ERROR - Konfigurasi belum siap: API Key belum dikonfigurasi
+2026-11-17 22:27:06,540 - ERROR - Ini simulasi kesalahan
+2026-11-17 22:27:06,541 - CRITICAL - Ini simulasi kesalahan kritis
+2026-11-17 22:27:06,542 - ERROR - Konfigurasi belum siap: API Key belum dikonfigurasi
+2026-11-17 22:28:08,912 - ERROR - Ini simulasi kesalahan
+2026-11-17 22:28:08,913 - CRITICAL - Ini simulasi kesalahan kritis
+2026-11-17 22:28:08,913 - ERROR - Konfigurasi belum siap: API Key belum dikonfigurasi
+2026-11-17 22:33:26,624 - DEBUG - Memasuki fungsi main
+2026-11-17 22:33:26,661 - INFO - Aplikasi dimulai
+2026-11-17 22:33:26,663 - DEBUG - Mencoba membuat OpenAI client
+2026-11-17 22:33:26,668 - ERROR - Konfigurasi belum siap: API Key belum dikonfigurasi
+2026-11-17 22:33:26,670 - INFO - Aplikasi selesai
+2026-11-22 14:20:49,342 - DEBUG - Memasuki fungsi main
+2026-11-22 14:20:49,343 - INFO - Aplikasi dimulai
+2026-11-22 14:20:49,344 - DEBUG - Mencoba membuat OpenAI client
+2026-11-22 14:20:49,344 - ERROR - Konfigurasi belum siap: API Key belum dikonfigurasi
+2026-11-22 14:20:49,344 - INFO - Aplikasi selesai
+2026-11-22 14:25:13,974 - DEBUG - Memasuki fungsi main
+2026-11-22 14:25:13,974 - INFO - Aplikasi dimulai
+2026-11-22 14:25:13,974 - DEBUG - Mencoba membuat OpenAI client
+2026-11-22 14:25:14,568 - DEBUG - Object Client berhasil dibuat
+2026-11-22 14:25:14,569 - INFO - OpenAI Client berhasil dibuat
+2026-11-22 14:25:14,569 - INFO - Aplikasi selesai
+2026-11-22 14:44:45,309 - DEBUG - Memasuki fungsi main
+2026-11-22 14:44:45,310 - INFO - Aplikasi dimulai
+2026-11-22 14:44:45,311 - DEBUG - Mencoba membuat OpenAI client
+2026-11-22 14:44:46,961 - DEBUG - Building HTTP request: method=POST retries_taken=0
+2026-11-22 14:44:47,694 - DEBUG - Sending HTTP Request: POST
+2026-11-22 14:44:47,703 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2026-11-22 14:44:48,030 - DEBUG - connect_tcp.complete return_value=<httpcore2._backends.sync.SyncStream object at 0x000001E00FB31D30>
+2026-11-22 14:44:48,041 - DEBUG - start_tls.started ssl_context=<truststore._api.SSLContext object at 0x000001E00FA88710> server_hostname='api.openai.com' timeout=5.0
+2026-11-22 14:44:48,403 - DEBUG - start_tls.complete return_value=<httpcore2._backends.sync.SyncStream object at 0x000001E00FAEE990>
+2026-11-22 14:44:48,405 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-11-22 14:44:48,409 - DEBUG - send_request_headers.complete
+2026-11-22 14:44:48,409 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-11-22 14:44:48,410 - DEBUG - send_request_body.complete
+2026-11-22 14:44:48,412 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-11-22 14:44:54,976 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 22 Nov 2026 07:44:54 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a5e64f98f8c5b581-CGK'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'access-control-expose-headers', b'X-Request-ID, Server-Timing-Total, X-OpenAI-Inference-Capacity-Reason'), (b'access-control-expose-headers', b'CF-Ray'), (b'Access-Control-Expose-Headers', b'CF-Ray'), (b'openai-organization', b'ricoandika'), (b'openai-processing-ms', b'3589'), (b'openai-project', b'proj_U36ImwQuUIpUJem0jNqhepDc'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'50'), (b'x-ratelimit-limit-tokens', b'100000'), (b'x-ratelimit-remaining-requests', b'49'), (b'x-ratelimit-remaining-tokens', b'100000'), (b'x-ratelimit-reset-requests', b'28m48s'), (b'x-ratelimit-reset-tokens', b'0s'), (b'x-request-id', b'req_6cf90c6b75344b599a0f76cf13817a46'), (b'set-cookie', b'__cf_bm=vjtVPPy3ajWXA7X5XeKaYoMsy28AK1IpG49j5lSj8VA-1795333487.5172892-1.0.1.1-UfVVtoIPgMptaKyFMqQX723HeLUhsV5fhMD6gG2BTer4AieCKJeaC_grh1BgH9xa64EBlm7fYcH4KskTzpKGK7yzeN5nrsr6.ECGlkg8gSHs3d2ok5MYGfMna5_dY98r; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=api.openai.com; Expires=Sun, 22 Nov 2026 08:14:54 GMT'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-11-22 14:44:54,978 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-11-22 14:44:54,980 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-11-22 14:44:54,995 - DEBUG - receive_response_body.complete
+2026-11-22 14:44:54,997 - DEBUG - response_closed.started
+2026-11-22 14:44:54,998 - DEBUG - response_closed.complete
+2026-11-22 14:44:54,999 - DEBUG - HTTP Response: POST 200
+2026-11-22 14:44:55,001 - DEBUG - request_id: req_6cf90c6b75344b599a0f76cf13817a46
+2026-11-22 14:44:55,168 - DEBUG - Object Client berhasil dibuat
+2026-11-22 14:44:55,169 - INFO - OpenAI Client berhasil dibuat
+2026-11-22 14:44:55,169 - INFO - Aplikasi selesai
+2026-11-22 14:44:55,237 - DEBUG - close.started
+2026-11-22 14:44:55,238 - DEBUG - close.complete
